@@ -23,12 +23,12 @@ export function Topbar() {
                     Movies
                 </Typography>
                 <Link to="/">
-                    <Button color="inherit">
+                    <Button color="inherit" className='bar-button'>
                         Login
                     </Button>
                 </Link>
                 <Link to="/register">
-                    <Button color="inherit">
+                    <Button color="inherit" className='bar-button'>
                         Register
                     </Button>
                 </Link>
